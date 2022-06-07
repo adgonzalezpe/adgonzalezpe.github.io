@@ -1,0 +1,43 @@
+:root {
+	--cyan: #00fff7;
+	--blue: #8bacda;
+	--dark: #0d192b;
+	--dark-blue: #14253d;
+	--white: #ffffff;
+}
+
+.color-white {
+	color: var(--white);
+}
+
+.color-white:hover {
+	color: var(--white);
+}
+
+.color-blue { 
+	color: var(--blue);
+}
+
+.color-blue:hover { 
+	color: var(--white);
+}
+
+.color-cyan {
+	color: var(--cyan);;
+}
+
+.color-cyan:hover {
+	color: var(--white);;
+}
+
+.background-color-dark {
+	background-color: var(--dark);
+}
+
+.background-color-dark-blue {
+	background-color: var(--dark-blue);;
+}
+
+.setoff {
+	box-shadow: 0.2rem 0.2rem 1rem black;
+}
